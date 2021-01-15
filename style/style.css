@@ -1,0 +1,26 @@
+
+.content {
+    height: 1000px;
+    background-color: #99d6ff;
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+  display: flex;
+}
+
+.row .box {
+margin: 10px;
+padding:10px;
+width: 100px;
+background-color: red;
+border-radius: 10px;
+}
+
+.col-1{
+	flex-grow: 1;
+}
+
+.col-3{
+ flex-grow: 3;	
+}
