@@ -10,6 +10,7 @@ header{
 	position: sticky;
 	top: 0;
 	left: 0;
+	z-index: 9999;
 }
 header .box {
 	margin: 10px;
